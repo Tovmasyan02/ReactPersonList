@@ -1,0 +1,18 @@
+.container
+{
+    display: flex;
+    padding:15px;
+    height:70vh;
+    border:0.3rem black solid;
+    justify-content: space-around;
+    align-items:center;
+
+}
+
+.block 
+{
+    background-color:darkgreen;
+    border:1px solid black;
+    height:10rem;
+    width: 10rem;
+}

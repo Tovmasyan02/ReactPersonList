@@ -13,11 +13,10 @@ class Person extends React.Component
     render()
     {
         return (
-          <div className="person">
-              <div class="img-person"></div>
-              <h1>{this.props.person.name}</h1>
+          <div className="person-card">
               <img src={this.url} alt="img"/>
-              <h1>{this.props.person.job}</h1>
+              <h4>{this.props.person.name}</h4>
+              <h4>{this.props.person.job}</h4>
           </div>
         );
     }

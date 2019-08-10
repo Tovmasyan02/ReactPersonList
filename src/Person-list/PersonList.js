@@ -17,6 +17,11 @@ class Personlist extends React.Component
                 img:22,
                 name:"Bob",
                 job:"Back-End Developer"
+            },
+            {
+                img:8,
+                name:"Henry",
+                job:"Data-Base Developer"
             }
         ]
     }
@@ -26,6 +31,7 @@ class Personlist extends React.Component
            <section>
               <Person person={this.peoples[0]}/>
               <Person person={this.peoples[1]}/>
+              <Person person={this.peoples[2]}/>
            </section>
         );
     }
